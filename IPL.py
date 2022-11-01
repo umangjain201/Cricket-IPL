@@ -19,7 +19,7 @@ import numpy as np
 
 
 try:
-    cnx = mysql.connector.connect(user='root', password='Be2502312Bit$',
+    cnx = mysql.connector.connect(user='root', password='Enter paasword here',
                               host='localhost',
                               database='cricket_ipl')
     query = "select * from all_matches;"
